@@ -175,6 +175,13 @@ config TARGET_PENGWYN
 	select DM_SERIAL
 	imply CMD_DM
 
+config TARGET_ETT_AURA
+	bool "Support Ecotelecom-T Aura"
+	select DM
+	select DM_GPIO
+	select DM_SERIAL
+	imply CMD_DM
+
 config TARGET_PEPPER
 	bool "Support pepper"
 	select DM

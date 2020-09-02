@@ -1,0 +1,15 @@
+if TARGET_ETT_AURA
+
+config SYS_BOARD
+	default "aura"
+
+config SYS_VENDOR
+	default "ett"
+
+config SYS_SOC
+	default "am33xx"
+
+config SYS_CONFIG_NAME
+	default "ett_aura"
+
+endif

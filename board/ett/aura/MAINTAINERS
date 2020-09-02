@@ -1,0 +1,6 @@
+ETT_AURA BOARD
+M:	Aleksandr Nazarov
+S:	Maintained
+F:	board/ett/aura/
+F:	include/configs/ett_aura.h
+F:	configs/ett_aura_defconfig
